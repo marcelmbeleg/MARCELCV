@@ -1,0 +1,64 @@
+h3 {
+	color:blue;
+}
+
+main section article h3, footer p{
+	color: blue; /* Couleur des écritures du footer et titre H1*/
+}
+
+.titre{
+	text-align: left;
+}
+
+.entete{
+	width: 50%;
+	text-align: center;
+	border: 4px black dotted;
+	border-radius: 10px 30px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+main{
+	padding: 20px;
+	border: 4px black dotted;/*Ajout des pointillés au bords du carré*/
+	border-radius: 10px 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 60%;
+	background-color: greenyellow;
+	border-radius: 20px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 640px) {
+	.titre {
+		display: block;
+		clear: both;
+	}
+}
+
+	img {
+	width: 100px; /* Redimensionner la photo*/
+	height: 100px;/* Redimensionner la photo*/
+}
+
+body {
+	background-color: #b0c4de;/*Couleur de fond de page principale*/
+}
+
+
+
+footer{
+    padding:10px 0px;/*Marge verticale pied de page*/
+    background-color:CaptionText; /*Couleur de fond pied de page*/
+    text-align:center;/*texte centré pied de page*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	width: 30%;
+	border: 4px black dotted;/*Arrondir les bords du carré*/
+	border-radius: 10px 30px;/*Arrondir les bords du carré*/
+}
