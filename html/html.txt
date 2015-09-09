@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"> <!--propriétés Doctype Html 5-->
+	<head>
+		<meta CHArset="utf-8">
+		<title>MON CV EN LIGNE</title><!-- Titre de la page quand on ouvre le browser-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="startbootstrap-grayscale-1.0.4/css/bootstrap.min.css"><!--Ajout de bootstrap--> 
+	</head>
+
+<body>
+	<header>
+		<h3 class="titre">MARCEL MBELEG</h3>
+		
+		<div style="text-align: center"> <img src="images/marcel.jpg" alt="images/marcel.jpg" class="img-circle" width="100"></div><!-- alt..., class... pour rendre la photo en cercle-->
+		
+		<img src="images/feuillecacao.jpg" 
+		style="width:148%;height:148%;position:absolute;top:0;left:0;z-index:-5000;"><!-- j'ai augmenté 160% pour que la photo occupe tte la page-->
+
+	<main class="container-fluid">
+		<section>
+			<article>
+				<h4>EXPERIENCES PROFESSIONNELLES</h4>
+				<h5>2013-2015 Technicien Core NOC Operator</h5>
+				<ul><li>Gestion des alarmes et tecketing selon SLA</li>
+					<li>Monitoring</li></ul>
+				<h5>2010-2013 Telecoms field engineer</h5>
+				<ul><li>Installation des équipements telecoms</li>
+				 	<li>Déploiement des réseaux mobiles 2g-3g-4g</li></ul>
+				<h5>2013-2014 Drive Tester pour le réseau mobile Orange</h5>
+				<ul><li>Controle qualité de la transmission DATA/VOICE</li>
+					<li>Réalisation des mésures 2g-3g-4g</li></ul>
+				<h4>COMPETENCES</h4>
+					<ul><li>Très bonne connaissance de l’architecture CISCO CCNA, ainsi que des technologies SDH, IP/Ethernet, IMPLS, DWDM</li>
+				 	<li>Routage et protocols TCP/IP, ICMP, SNMP, VPN, VLAN – Switching – Firewall</li></ul>
+				 <h4>ETUDES ET FORMATIONS</h4>
+				 	<ul><li>Certification CISCO(voip-security)</li>
+					<li>PAS DE DIPLOME, je suis un véritbale autodidacte</li></ul>
+				 <h4>LANGUES</h4>
+				 	<ul><li>FRANCIAS</li>
+					<li>ANGLAIS</li></ul>
+				<h4>LOISIRS</h4>
+				<ul><li>APPRENDRE A CODER</li>
+				<ul><li>SPORT</li>
+				<li>MUSIQUE</li></ul>
+			</article>
+		</section>
+	</main>
+	<footer>
+		<p>Email: marcelmbeleg@gmail.com</p>
+		<p>Gsm: 0032 472671598</p>
+		<a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile">Lin</a><!-- Aouter un lien-->
+	</footer>
+</body>
+</html>
